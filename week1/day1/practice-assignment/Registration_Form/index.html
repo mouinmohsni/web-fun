@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>
+        Registration Form
+    </h1>
+    <form>
+        <div>
+            <label for="first_name">First Name *:</label>
+            <input type="text" name="first_name">
+        </div>
+        <div>
+            <label for="Last_name">Last Name *:</label>
+            <input type="text" name="Last_name">
+        </div>
+        <div>
+            <label for="Email">Email Adress :*</label> 
+            <input type="text" name="Email">
+        </div>
+        <div>
+            <label for="password">Password:* </label> 
+            <input type="password" name="password">
+        </div>
+        <div>
+
+            <label for="conf_password">Confirm Password:*</label> 
+            <input type="password" name="conf_password">
+        </div>
+         <div>
+            <label for="birthday">Birthday;</label> 
+            <input type="date" name="birthday"> 
+         </div>
+         <div>
+            <label for="birthday">Gender Identity:</label> 
+            <input type="radio" name="Gender_Identity" value="male" id="male"> male
+            <input type="radio" name="Gender_Identity" value="Female" id="Female">Female
+            <input type="radio" name="Gender_Identity" value="non-binary" id="non-binary">non-binary
+            <input type="radio" name="Gender_Identity" value="not_ansewr" id="not_ansewr">I prefer not ansewr
+        </div>
+        <div>
+            <p><label for="description">a short description about myself:</label></p>
+            <textarea name="description" cols="20" rows="3"></textarea>   
+        </div>
+        <div>
+            <label for="Language">Favorite Language</label>
+            <select name="Language">
+                <option>JavaScript</option>
+                <option>html</option>
+                <option>css</option>
+                <option>java</option>
+            </select>
+        </div>
+        <div>
+
+            <input type="checkbox" name="update" id="update" checked >
+            <label for="offers"><label for="updates"> Yes, Iwould like to receive periodic email updates</label>
+        </div>
+        <input type="submit" value="create account" >
+        <p>* Iindicates a resqueired fiel</p>
+        
+    </form>
+    
+    
+</body>
+</html>
