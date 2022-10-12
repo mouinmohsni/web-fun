@@ -1,0 +1,8 @@
+#dojo {
+    width: 900px;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
