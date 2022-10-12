@@ -1,0 +1,48 @@
+img.octocat{
+    height: 200px;
+}
+h1{
+    text-align: center;
+    font: bold;
+    
+}
+p{
+    text-align: center;
+    font-size: 14 px;
+    color:gray;
+}
+a{
+    color:aqua;
+}
+.countent{
+    background-color: #F6F6FF ;
+    border-top: solid  black;
+    }
+    
+.countent-1{
+background-color:#5BC7F6 ;
+padding: 30PX;
+display: flex;
+align-items: center;
+justify-content:space-around;
+margin: 20px;
+
+}
+
+.countent-2{
+    background-color:#D8A1AA ;
+    padding: 30PX;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin: 30px;
+}
+
+.countent-3{
+    background-color:#FCFCFF;
+    padding: 30PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+}
