@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+background-color: #000000;
+color:aliceblue;
+padding: 5px;
+ justify-content:space-between; 
+}
+.nav-links ,a , ul  {
+    
+    display: flex; 
+    align-items:center;
+    color:aliceblue;
+    list-style: none;
+   margin: 10px;
+}
+/* .nav-links a {
+    justify-content:right;
+} */
+.btn{
+    background-color: #17A2B8;
+    color:aliceblue;
+}
